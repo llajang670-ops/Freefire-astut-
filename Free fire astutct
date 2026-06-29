@@ -1,1 +1,111 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Astutct</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin: 2rem 0;
+            padding: 2rem;
+            background: #f4f4f4;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+
+        .button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Free Fire Astutct</h1>
+        <p>Your ultimate gaming guide</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Welcome to the Free Fire Astutct guide. This page provides comprehensive information about strategies, tips, and tricks to improve your gameplay.</p>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Strategic gameplay tips</li>
+                <li>Character guides</li>
+                <li>Weapon recommendations</li>
+                <li>Map strategies</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get Started</h2>
+            <p>Ready to improve your skills? Click the button below to explore more content.</p>
+            <a href="#" class="button">Learn More</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Free Fire Astutct. All rights reserved.</p>
+    </footer>
+</body>
+</html>
